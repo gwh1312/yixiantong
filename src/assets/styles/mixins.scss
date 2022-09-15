@@ -1,0 +1,23 @@
+@mixin ellipsis {
+    white-space: nowrap;
+    /* 不换行*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+// 横向排列
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+// 竖向排列
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+// 垂直居中
+@mixin vh-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

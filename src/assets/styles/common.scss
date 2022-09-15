@@ -1,0 +1,16 @@
+html {
+	font-size: .12rem;
+	background-color: #ededed;
+}
+ 
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
